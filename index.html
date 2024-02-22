@@ -19,6 +19,30 @@
           <input type="text" class="input-box" id="inputbox" />
         </div>
         <div><button onclick="validate('/')">/</button></div>
+        <div>
+          <button onclick="validate('9')">9</button>
+          <button onclick="validate('8')">8</button>
+          <button onclick="validate('7')">7</button>
+          <button onclick="validate('+')">+</button>
+        </div>
+        <div>
+          <button onclick="validate('6')">6</button>
+          <button onclick="validate('5')">5</button>
+          <button onclick="validate('4')">4</button>
+          <button onclick="validate('-')">-</button>
+        </div>
+        <div>
+          <button onclick="validate('3')">3</button>
+          <button onclick="validate('2')">2</button>
+          <button onclick="validate('1')">1</button>
+          <button onclick="validate('*')">*</button>
+        </div>
+        <div>
+          <button onclick="validate('0')">0</button>
+          <button onclick="validate('.')">.</button>
+          <button onclick="clearall()">c</button>
+          <button id="equals" onclick="calculate()">=</button>
+        </div>
 
       </div>
     </div>
