@@ -1,1 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
 
+.title {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.container-fluid {
+  margin-top: 30px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculator {
+  background: #f7f5f5;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px 0 rgba(170, 170, 170, 0.2),
+    0 6px 20px 0 rgba(170, 170, 170, 170.19);
+  position: relative;
+  height: 390px;
+}
+.calculator button:hover {
+  background-color: #178aef;
+}
+.calculator button:active {
+  background-color: #0372d2;
+}
+.title h1 {
+  color: #0372d2;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.calculator button {
+  width: 75px;
+  height: 47px;
+  outline: 0;
+  border-radius: 5px;
+  border: 2px solid #f0efef;
+  font-size: 20px;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
