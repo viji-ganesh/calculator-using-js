@@ -42,3 +42,39 @@
   padding: 0px;
   margin: 0px;
 }
+.display {
+  display: grid;
+  justify-content: flex-end;
+  height: 90px;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 15px;
+}
+.input-box {
+  border: none;
+  background: #f7f5f5;
+  text-align: right;
+  font-size: 25px;
+}
+input:focus {
+  text-align: right;
+  font-size: 25px;
+
+  outline: 0px;
+}
+
+#equals {
+  background-color: #0372d2;
+  color: white;
+}
+.display button {
+  text-align: right;
+  flex: 1;
+  box-shadow: none;
+  font-size: 40px;
+  background-color: #f7f5f5;
+  border: none;
+  font-weight: 600;
+  height: 100px;
+}
+
+
