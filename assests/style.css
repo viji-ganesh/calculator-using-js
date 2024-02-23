@@ -1,3 +1,4 @@
+/*****************google font*************/
 @import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
 
 .title {
@@ -61,11 +62,6 @@ input:focus {
 
   outline: 0px;
 }
-
-#equals {
-  background-color: #0372d2;
-  color: white;
-}
 .display button {
   text-align: right;
   flex: 1;
@@ -76,5 +72,8 @@ input:focus {
   font-weight: 600;
   height: 100px;
 }
-
+#equals {
+  background-color: #0372d2;
+  color: white;
+}
 
